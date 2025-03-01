@@ -1,0 +1,7 @@
+git 使用
+git version
+git config --global user.name "cjq"
+git config --global user.email "qq2920717732@gmail.com"
+git init
+git add test.txt
+
