@@ -65,7 +65,7 @@ git和本地disk中
 
 6.git commit xxx可以将暂存区里更新后的代码更新到本地git
 
-7.git push origin xxx 将本地的xxxgit分支上传至github上的git
+7.git push origin xxx 将本地的xxx git分支上传至github上的git
 -----------------------------------------------------------
 
 （如果在写自己的代码过程中发现远端GitHub上代码出现改变）
@@ -86,5 +86,9 @@ git和本地disk中
 远端完成更新后
 1.git branch -d xxx 删除本地的git分支
 2.git pull origin master 再把远端的最新代码拉至本地
+
+
+主分支main合并次分支feature时使用，ferture开发测试完成使用 merge
+次分支feature需要主分支main的更新内容时，使用    rebase会保留主分支main的更新记录
 
 
