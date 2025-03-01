@@ -13,3 +13,5 @@ i   输入
 ESC 退出输入模式
 shift + ; 时输入 : （英文模式下）
 :wq 退出 或者 ZZ 
+git commit -m "" //不进入vim(简化版操作)
+git log //查看日志
