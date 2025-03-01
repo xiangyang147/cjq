@@ -21,11 +21,11 @@ git add . //添加全部文档
 
 git commit -m "提交readme文档" //提交文档
 
-git branch 0.1
+git branch 0.1  //创建0.1分支
 
 git push -u origin 0.1//上传到远程仓库main分支
 
-git checkout 0.1 
+git checkout 0.1 //切换分支到0.1
 
 git clone https://github.com/xiangyang147/cjq.git . //克隆仓库文件到本地当前文件夹
 
