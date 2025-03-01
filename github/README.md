@@ -26,3 +26,18 @@ git branch 0.1
 git push -u origin 0.1//上传到远程仓库main分支
 
 git checkout 0.1 
+
+git clone https://github.com/xiangyang147/cjq.git . //克隆仓库文件到本地当前文件夹
+
+git remote -v //查看自己仓库连接权限
+
+git  remote add upstream https://github.com/xiangyang147/cjq.git //添加上游库的代码连接
+
+git fetch upstream //更新一下本地版本(与仓库版本不一致)
+
+git merge upstream/main //把远程upstream代码main分支merge最新的内容到目前本地分支
+
+git push 
+
+
+
