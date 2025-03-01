@@ -17,3 +17,4 @@ git add . //添加全部文档
 git commit -m "提交readme文档" //提交文档
 git branch 0.1
 git push -u origin main//上传到远程仓库main分支
+git checkout 0.1     
